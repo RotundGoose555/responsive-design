@@ -138,10 +138,11 @@ h3{
   margin: 0;
 }
 
-a{
+.image-link{
   display: flex;
   justify-content: center;
 }
+
 .website-still{
   justify-self: center;
   align-self: center;
