@@ -20,7 +20,7 @@
 .white-title{
   font-size: 1.5em;
   text-align: center;
-  color: rgb(243, 242, 242);
+  color: rgb(0, 0, 0);
   padding: 0%;
   margin: 0%;
 }
@@ -35,17 +35,21 @@
 .horizontal-flex{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-evenly; 
   align-items: center;
 }
+
 .vertical-flex{
   display: flex;
+  padding-top: 5%;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
-
 .header{
-  background-color:rgb(243, 242, 242);;
+  background-color:rgb(0, 0, 0);;
   height: auto;
   display: flex;
   justify-content: right;
@@ -54,12 +58,29 @@
   padding-left: 2%;
 }
 
+h3{
+  color: black;
+  font-weight: normal;
+  font-size: 1em;
+  text-align: center;
+}
+
+.still-text{
+  display: flex;
+  max-width: 50%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  align-self: center;
+  justify-self: center;
+}
+
 .title {
-  font-weight: lighter;
+  font-weight: bold;
   font-size:10vh;
   padding-top: 1%;
   padding-bottom: 0rem;
   margin: 0%;
+  color:#faebd7;
 }
 
 .subtitle{
@@ -72,132 +93,74 @@
   margin: 0%;
 }
 
-
 .sketch{
-  padding-top: 5%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color:black;
   height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-items: center;
   justify-content: center;
-  align-items: flex-start;
-}
-
-.sketch-description{
-  font-size: 1.5em;
-  text-align: center;
-  color: rgb(243, 242, 242);
-  padding-left: 7rem;
-  padding-right: 7rem;
-  font-weight: 100;
-  padding-top:0%;
-  padding-bottom: 1%;
-  margin-bottom: 0%;
-}
-
-.sketch-img{
-  flex: 1 1 auto;
-  width: 60%;
-  height: auto;
-  justify-self: center;
-  align-self:center;
-  max-height: 50%;
-  max-width: 50%;
-  padding-bottom: 2%;
+  align-items: center;
   color: rgb(243, 242, 242);
 }
-
-.sketch-functionality{
-  flex-direction: column;
-  flex: 1.5 1 auto;
-  align-self:center;
-}
-
-.sketch-list{
-  color: rgb(243, 242, 242);
-  column-count: 2;
-  column-gap: 5vw;
-  padding-right: 7rem;
-  padding-left: 7rem;;
-  padding-bottom: 4%;
-  padding-top: 1% ;
-  vertical-align: middle;
-  text-align:justify;
-}
-
-li{ padding: 8px 0px; }
-
 
 .observations{
   padding-top: 6rem;
   padding-bottom: 6rem;
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   background-color: #eb5b5bff;
   justify-content: center;
   align-content: center;
 }
+
 .observations-text{
-  font-weight: lighter;
-  font-size: 1.5em;
+  font-weight: normal;
+  font-size: 1.2em;
   color: rgb(243, 242, 242);
   width: 80%;
-  text-align: center;
-}
-
-.questions{
-  background-color: rgb(243, 242, 242);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.questions-table{
-  color: rgb(243, 242, 242);
-  padding: 15px;
   text-align: left;
-  width: 80%;
-  
 }
-
-th,td{
-  border: 2px solid rgb(243, 242, 242);
-  border-left: 0px solid rgb(243, 242, 242);
-  border-right: 0px solid rgb(243, 242, 242);
-  background-color: black;
-  border-collapse: collapse;
-  justify-content: space-evenly;
-  padding: 5px;
-  width: 18%
-}
-
-th:nth-child(1), td:nth-child(1) { 
-  background-color:#eb5b5bff;
-  color: rgb(243, 242, 242);
-}
-
 
 .personas{
   padding-bottom: 5%;
   padding-top: 5%;
-  background-color: rgb(243, 242, 242);
+  background-color:rgb(243, 242, 242);
   display: flex;
   flex-direction: column;
   justify-content:center;
+  align-content: center;
   align-items: center;
+  justify-items: center;
+  margin: 0;
 }
 
-.persona-img{
+a{
+  display: flex;
+  justify-content: center;
+}
+.website-still{
   justify-self: center;
   align-self: center;
-  width: 30%;
+  width: 50%;
   height:auto;
-  padding: 5% 5% 0% 5%;
-
+  Border: 10px solid black;
 }
 
+.website-still:hover{
+  Border: 10px solid #ED5B5B;
+}
+
+.wireframe-img{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  height: auto;
+  max-width: 95%;
+  color: rgb(243, 242, 242);
+}
 
 .storyboard{
   padding-bottom: 5%;
@@ -214,7 +177,21 @@ th:nth-child(1), td:nth-child(1) {
   width: 60%;
   height:auto;
   justify-self: center;
-  color: rgb(243, 242, 242);
+  
 }
+
+.high-fi{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color:antiquewhite;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
 
 
